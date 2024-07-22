@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="icon" href="img/logo__1_-removebg-preview.png" type="image">
+    <title>My Portfolio</title>
+
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen' ></i>
+            <span class="logo navLogo"><a href="index.html">CrazyOne</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="index.html">CrazyOne</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container swiper">
+        <div class="slider-wrapper">
+          <div class="card-list swiper-wrapper">
+            <div class="card-item swiper-slide">
+              <img src="img/sagegrocery.png" alt="User Image" class="user-image">
+              <h2 class="user-name">Sage Grocery</h2>
+              <p class="user-profession">PHP/HTML/CSS/JAVASCRIPT</p>
+              <a href="img/sagegrocery.png" download="sagegrocery.png">
+                <button class="message-button">Download Image</button>
+              </a>
+            </div>
+            <div class="card-item swiper-slide">
+              <img src="img/movieslider.png" alt="User Image" class="user-image">
+              <h2 class="user-name">Movie Slider</h2>
+              <p class="user-profession">PHP/HTML/CSS/JAVASCRIPT</p>
+              <a href="img/movieslider.png" download="movieslider.png">
+                <button class="message-button">Download Image</button>
+              </a>
+            </div>
+            <div class="card-item swiper-slide">
+              <img src="img/moviequiz.png" alt="User Image" class="user-image">
+              <h2 class="user-name">Movie Quiz</h2>
+              <p class="user-profession">PHP/HTML/CSS/JAVASCRIPT</p>
+              <a href="img/moviequiz.png" download="moviequiz.png">
+                <button class="message-button">Download Image</button>
+              </a>
+            </div>
+            <div class="card-item swiper-slide">
+              <img src="img/movierental.png" alt="User Image" class="user-image">
+              <h2 class="user-name">Movie Rental</h2>
+              <p class="user-profession">PHP/HTML/CSS/JAVASCRIPT</p>
+              <a href="img/movierental.png" download="movierental.png">
+                <button class="message-button">Download Image</button>
+              </a>
+            </div>
+            <div class="card-item swiper-slide">
+              <img src="img/student and teacher management system.png" alt="User Image" class="user-image">
+              <h2 class="user-name">School Management System</h2>
+              <p class="user-profession">PHP/HTML/CSS/JAVASCRIPT</p>
+              <a href="img/student and teacher management system.png" download="studentandteachersystem.png">
+                <button class="message-button">Download Image</button>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-slide-button swiper-button-prev"></div>
+          <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="slider.js"></script>
+</body>
+</html>
