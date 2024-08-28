@@ -10,6 +10,10 @@
      <link rel="icon" href="img/logo__1_-removebg-preview.png" type="image">
 </head>
 <body>
+  <!-- Loader -->
+  <div id="loader">
+    <img src="img/My Video.gif" alt="Loading...">
+</div>
     <nav>
         <div class="nav-bar">
             <i class='bx bx-menu sidebarOpen' ></i>
@@ -65,5 +69,14 @@
         </div>
       </section>
       <script src="script.js"></script>
+      <script>
+        window.addEventListener('load', function () {
+    setTimeout(function() {
+        document.getElementById('loader').style.display = 'none';
+    }, 5000);
+});
+    </script>
+
+    </script>
 </body>
 </html>
