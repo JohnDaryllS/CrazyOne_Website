@@ -684,6 +684,21 @@ body.dark .search-field i{
     margin-top: 5px;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .contact_container {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .contact_container {
+        height: 80vh;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
 @media screen and (max-width: 1024px) {
     .contact_container {
         flex-direction: column-reverse;
@@ -696,21 +711,9 @@ body.dark .search-field i{
     }
 }
 
-@media screen and (max-width: 680px) {
 
-    .contact_container {
-        height: 80vh;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
 
-@media (max-width: 320px) and (max-width: 480px) {
 
-    .contact_container {
-        margin-top: 40px;
-    }
-}
 
 
 #loader {
