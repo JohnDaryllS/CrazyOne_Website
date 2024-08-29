@@ -687,7 +687,7 @@ body.dark .search-field i{
 @media (min-width: 320px) and (max-width: 480px) {
 
     .contact_container {
-        margin-top: 50px;
+        margin-top: 100px;
     }
 }
 
@@ -710,11 +710,6 @@ body.dark .search-field i{
         max-width: 100%;
     }
 }
-
-
-
-
-
 
 #loader {
     position: fixed;
