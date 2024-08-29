@@ -319,7 +319,7 @@ body.dark .search-field i{
 
   @media (min-width: 481px) and (max-width: 768px) {
     .hero h1 {
-        font-size: 1.6rem;
+        font-size: 1rem;
         margin-bottom: 20px;
         color: var(--text-color);
     }
@@ -345,7 +345,7 @@ body.dark .search-field i{
   }
   @media (min-width: 769px) and (max-width: 1024px) {
     .hero h1 {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
         margin-bottom: 20px;
         color: var(--text-color);
     }
