@@ -684,10 +684,16 @@ body.dark .search-field i{
     margin-top: 5px;
 }
 
+@media (max-width: 319px) {
+    .section_container {
+        margin-top: 100px;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
 
-    .contact_container {
-        margin-top: 100px;
+    .section_container {
+        margin-top: 150px;
     }
 }
 
