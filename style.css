@@ -626,6 +626,7 @@ body.dark .search-field i{
     height: 90vh;
     margin-left: 20%;
 }
+
 .contact_container .contact_form {
     max-width: 65%;
     width: 100%;
@@ -686,8 +687,8 @@ body.dark .search-field i{
 
 @media (min-width: 320px) and (max-width: 480px) {
 
-    .contact_container {
-        margin-top: 100px;
+    .contact, .field {
+        margin: 30px;
     }
 }
 
