@@ -270,7 +270,7 @@ body.dark .search-field i{
         left: -100%;
         top: 0;
         padding: 20px;
-        background-color: var(--side-nav);
+        background-color: var(--nav-color);
         z-index: 100;
         transition: all 0.4s ease;
     }
@@ -686,7 +686,7 @@ body.dark .search-field i{
 
 @media (max-width: 319px) {
     .section_container {
-        margin-top: 150px;
+        margin-top: 10px;
     }
 }
 
